@@ -175,13 +175,11 @@ In the project directory, you can run:
 
 反而，他将会复制所有的配置文件和迁移依赖(Webpack, Babel, ESLint, etc)在你的项目中。所以你已经掌握了他们，所有的命令全部失效除了‘eject’。但是它们将指出所有被复制scripts，所以可以忽略它们，并添加自己的。
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
+如果你曾经没有用过`eject`。项目默认设置的事中小型的部署，你不应该责无旁贷的使用这些特征。然而我们理解这个工具，当你已经做好准备，如果你不能定制它那它就是无用的了
 
 ## Supported Language Features and Polyfills
 
-This project supports a superset of the latest JavaScript standard.<br>
-In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, it also supports:
+关注[ES6](https://github.com/lukehoban/es6features)的语法特点，它也许支持：
 
 * [Exponentiation Operator](https://github.com/rwaldron/exponentiation-operator) (ES2016).
 * [Async/await](https://github.com/tc39/ecmascript-asyncawait) (ES2017).
@@ -189,9 +187,9 @@ In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, 
 * [Class Fields and Static Properties](https://github.com/tc39/proposal-class-public-fields) (stage 2 proposal).
 * [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) and [Flow](https://flowtype.org/) syntax.
 
-Learn more about [different proposal stages](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
+学习更多关于 [different proposal stages](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
 
-While we recommend to use experimental proposals with some caution, Facebook heavily uses these features in the product code, so we intend to provide [codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb) if any of these proposals change in the future.
+当我们推荐使用实践性的建议关于一些警告，Facebook大量地使用这些特点在产品代码中，所以我们打算提供[codemods](https://medium.com/@cpojer/effective-javascript-codemods-5a6686bb46fb) 这些提议中的一部分在将来
 
 Note that **the project only includes a few ES6 [polyfills](https://en.wikipedia.org/wiki/Polyfill)**:
 
