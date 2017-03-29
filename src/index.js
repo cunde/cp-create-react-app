@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import Routers from './router.jsx';
-import './layout.scss';
+import './css/style.scss';
 
 ReactDOM.render(
   Routers,
