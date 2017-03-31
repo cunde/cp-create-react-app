@@ -169,7 +169,7 @@ In the project directory, you can run:
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**注意: 这是一种操作. 一旦 `eject`, 你就不能回溯了!**
 
 如果你不满足当前的构建工具和配置选择，你可以任何时候`eject[跳出]`。这个命令可以从你的项目中移除单独的构建依赖
 
@@ -758,20 +758,19 @@ these defined as well. Consult their documentation how to do this. For example, 
 
 ## Can I Use Decorators?
 
-Many popular libraries use [decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841) in their documentation.<br>
-Create React App doesn’t support decorator syntax at the moment because:
+许多流行的函数库使用[decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)在他们的文件中。<br>
+create-react-app 此时是不支持[decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)语法的，原因如下：
 
-* It is an experimental proposal and is subject to change.
-* The current specification version is not officially supported by Babel.
-* If the specification changes, we won’t be able to write a codemod because we don’t use them internally at Facebook.
+* 它是一个实验性的提议，
+* 当前说明文档的版本通过babel编译，不是官方所支持的
+* 如果说明文档有所改变，在Facebook官方，我们也将不会使用它。
 
-However in many cases you can rewrite decorator-based code without decorators just as fine.<br>
-Please refer to these two threads for reference:
+然而你在许多案例当中应用过请参考下面的issue
 
 * [#214](https://github.com/facebookincubator/create-react-app/issues/214)
 * [#411](https://github.com/facebookincubator/create-react-app/issues/411)
 
-Create React App will add decorator support when the specification advances to a stable stage.
+create-react-app 将添加decorator的支持当说明文档能过提供一个稳定的平台时。
 
 ## Integrating with an API Backend
 
